@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A coversational AI to talk about PlayWhe.">
+    <meta name="keywords" content="Chatbot, Playwhe, AI, Sarge">
+    <meta name="author" content="Noveck J. Gowandan">
+        <link rel="stylesheet" href="./script/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <title>Uncle Sarge // ai </title>
+    </head>
+    <body>
+  
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo"> Uncle Sarge // ai</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#help" class="nav__link">Help</a></li>
+                        <li class="nav__item"><a href="#disclaimer" class="nav__link">Disclaimer</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+                    <!--===== Botpress =====-->
+        <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+        <script>
+         window.botpressWebChat.init({
+        hostUrl: 'https://cdn.botpress.cloud/webchat/v0',
+        messagingUrl: 'https://messaging.botpress.cloud',
+        clientId: 'c8c65b00-c339-4d00-87ce-3a676e6af99b'
+        })
+        </script>
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color"> Uncle Sarge</span></h1> <h3>A PlayWhe AI Chatbot</h3>
+                </div>
+
+                <div class="home__img">    
+                    <img src="./img/profile.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="./img/sarge_about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">An AI Experiment</h2>
+                        <p class="about__text">This project is largely an exploratory experiment in conversational AI. I've interacted with many company hatbots and the most frequently implemented are ruled based - which in most cases are the least helpful for me as a customer.
+                       <br><br>
+                        Sarge is actually based upon my late grandfather of the same name. A man who liked playng odds, and known to run his own bush whe back in the 60s and 70s. I've heard many stories of his escapades over the years and he's the inspiration for this bot. If he were were still alive, he would have probably helped you find a PlayWhe mark to play.
+                        <br><br>
+                        This project smashes together modern technology - artificial intelligence, machine learning and natural language understanding - with local lore and some family legend.
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== HELP =====-->
+            <section class="skills section" id="help">
+                <h2 class="section-title">Help</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Help</h2>
+                        <p class="skills__text">
+                        Click the Chat Bubble in the lower right and say Hi to get started!
+                        <br><br>
+                        This uses an AI based chat, so it's intentionally open ended. PlayWhe lore gives some defined marks for certain dreams, but there are some overlaps and lots of ambiguous area.
+                        <br><br>
+                        Tell Uncle Sarge about something you dreamed, saw or experienced. Try to distill it into a simple concept. If you dreamed two women fighting, try telling him you dreamed a fight, or maybe women. He'll look up known PlayWhere lore and make a suggestion. For the areas where the PlayWhe lore lacks information, he will either make a guess, or ask you to refine the data. AI bots need data to learn, so his responses will improve over time.
+                        <br><br>
+                        There are some bonus easter eggs if you ask the right question. He can give you a random mark to play if you ask nicely.</p>
+                    </div>
+                    
+                    <div>           
+                        <img src="./img/helpbot.gif" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== DISCLAIMER =====-->
+            <section class="contact section" id="disclaimer">
+                <h2 class="section-title">Disclaimer</h2>
+
+             <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="./img/disclaimer.gif" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Disclaimer</h2>
+                        <p class="about__text">THIS IS FOR ENTERTAINMENT PURPOSES ONLY.
+                        <br><br>
+                        The local tales and folklore around PlayWhe is fascinating and there are absolutely no methods of predicting what can play - like all true games of random chance. Uncle Sarge is just an interpreter to help you map your dreams/experiences to a suitable mark. 
+                        <br><br>
+                        This site does not guarantee the accuracy of the information provided, nor any errors or imperfections. This is not meant in any way to be a source of professional advice or recommendation to in any way bet or gamble. Site users are warned to act exclusively at their own discretion and risk. 
+                        <br><br>
+                        This site is not be liable and cannot be held responsible for any any financial losses or damages that may occur or that you may suffer as a result of the information displayed. 
+                        <br><br>
+                        This is a comprehensive limitation of liability that applies to all damages of any kind, including (without limitation) compensatory, direct, indirect or consequential damages, loss of data, income or profit, loss of or damage to property and claims of third parties.
+                        <br><br>
+                        If you experience gambling problems of any kind, you should seek professional advice from a professional body.</p>           
+                    </div>                                   
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <!--<p class="footer__title">Social Media</p>-->
+            <div class="footer__social">
+                <a href="https://linktr.ee/noveck" class="footer__icon">A project by Noveck J. Gowandan</a>
+            </div>
+            <p>Based on the Theme by <a href="https://github.com/ItsArul/itsarul.github.io">ItsArul</a></p>
+            <p>This project is not affliated with the NLCB</p>
+            
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="./script/js/main.js    "></script>
+
+        <!---==== PARTICLES JS=====-->
+        <div id="particles-js"></div>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script>
+            particlesJS.load('particles-js', 'particles.json',
+            function(){
+                console.log('particles.json loaded...')
+            })
+        </script>   
+        <script type="text/javascript" src="./script/js/app.js"></script>
+        <script type="text/javascript" src="./script/js/particles.js"></script>
+ 
+    
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Decode this : RkxBR3tsa3NqYWt0aW0yMDIyfQ==>
